@@ -2,7 +2,6 @@ import React, { useEffect,useState } from 'react'
 import { userStore } from '../store/userStore'
 import ProfessorDashboard from '../components/ProfessorDashboard';
 import StudentDashboard from '../components/StudentDashboard';
-import LoadingSpinner from '../components/LoadingSpinner';
 import { apointmentStore } from '../store/apointmentStore';
 const Dashboard = () => {
   const [professorId, setProfessorId] = useState(null);

@@ -5,7 +5,6 @@ import Signup from './routes/Signup';
 import Login from './routes/Login';
 import { userStore } from './store/userStore';
 import { useCallback, useEffect } from 'react';
-import AllAppointment from './routes/AllAppointment';
 import { Toaster } from 'react-hot-toast';
 import Dashboard from './routes/Dashboard';
 import Navbar from './components/Navbar';

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { apointmentStore } from '../store/apointmentStore';
 
 const StudentDashboard = ({ professorId }) => {
